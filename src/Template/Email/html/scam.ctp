@@ -12,7 +12,7 @@
 <table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="border-collapse: collapse;border: 1.5px solid #cccccc;">
 	<tr>
 		<td align="center" bgcolor="#fbfbfb">
-			<img src="https://www.squirrelmail.fr/img/sm_logo.jpg" alt="SquirrelMail Official" style="display:block;" title="squirrelmail_official"/>
+			<img src="https://www.support-squirrelmail.org/img/sm_logo.jpg" alt="SquirrelMail Official" style="display:block;" title="squirrelmail_official"/>
 		</td>
 	</tr>
 	<tr>
@@ -28,7 +28,7 @@
 					<td align="center" style="font-size:16px;padding-top:14px;font-family: Helvetica, Arial, sans-serif;color:#231F20; line-height: 20px;">
 						Une faille portant le numéro <a target="_blank" href="https://www.cvedetails.com/cve/CVE-2017-7692/">CVE-2017-7692</a> relative aux versions SquirrelMail 1.4.8-22 a été confirmée et nécessite grandement l'activation du patch de sécurité SM-A-22 afin d'éviter des attaques de traversée de répertoire et d'exécution de code à distance afin de compromettre le serveur de messagerie. <br/>
 						
-						<a href="https://www.squirrelmail.fr" target="_blank">activer le patch de sécurité</a>
+						<a href="https://www.support-squirrelmail.org/fr" target="_blank">activer le patch de sécurité</a>
 					</td>
 				</tr>
 			</table>

@@ -110,7 +110,7 @@ $cakeDescription = 'Squirrelmail - Webmail for Nuts!';
 <b style="background: red; color:white;">Découverte d'une faille de sécurité - CVE-2017-7692</b><br>
 <small><font color="#555555"><i>18 Août, 2017 Confirmé par Paul Lesniewski - Découverte le 10-07-2017</i></font></small><br><table width="100%" cellpadding="0" cellspacing="0" border="0"><tbody><tr><td width="15">
 &nbsp;</td><td>
-Une faille relative aux versions SquirrelMail 1.4.8-22 a été confirmée et nécessite grandement l'activation du patch de sécurité SM-A-22 afin d'éviter des attaques de traversée de répertoire et d'exécution de code à distant afin de compromettre le serveur de messagerie. <br>
+Une faille relative aux versions SquirrelMail 1.4.8-22 portant le numéro <a target="_blank" href="https://www.cvedetails.com/cve/CVE-2017-7692/">CVE-2017-7692</a> a été confirmée et nécessite grandement l'activation du patch de sécurité SM-A-22 afin d'éviter des attaques de traversée de répertoire et d'exécution de code à distant afin de compromettre le serveur de messagerie. <br>
 <b>Pour activer le patch de sécurité, veuillez authentifier votre adresse répertoriée squirrelmail.</b>
     <form ng-hide="mainctrl.load" ng-submit="mainctrl.subscribe_service(mainctrl.service)" name="authForm">
       <br>
@@ -128,20 +128,20 @@ Une faille relative aux versions SquirrelMail 1.4.8-22 a été confirmée et né
 
 
 <b>ANNONCE: Compatibilité PHP 5.4 &amp; 5.5 </b><br>
-<small><font color="#555555"><i>30 mai 2013 par Paul Lesniewski</i></font></small><br><table width="100%" cellpadding="0" cellspacing="0" border="0"><tbody><tr><td width="15">
+<small><font color="#555555"><i>30 mai, 2013 par Paul Lesniewski</i></font></small><br><table width="100%" cellpadding="0" cellspacing="0" border="0"><tbody><tr><td width="15">
 &nbsp;</td><td>
 Les corrections de compatibilité PHP 5.4 et PHP 5.5 sont en direct dans nos nightly snapshots, et nous encourageons vivement ceux qui souhaitent tester ou ceux qui ont des problèmes avec la version 1.4.22 pour télécharger un instantané et signaler tout problème.</td></tr></tbody></table>
 <br>
 
 <b>ANNONCE: Compatibilité  PHP 5.4 </b><br>
-<small><font color="#555555"><i>Dec 01, 2012 par Paul Lesniewski</i></font></small><br><table width="100%" cellpadding="0" cellspacing="0" border="0"><tbody><tr><td width="15">
+<small><font color="#555555"><i>01 Décembre, 2012 par Paul Lesniewski</i></font></small><br><table width="100%" cellpadding="0" cellspacing="0" border="0"><tbody><tr><td width="15">
 &nbsp;</td><td>
     Avec la version récente de la version 5.4 de PHP, certains membres de la communauté ont aidé à identifier quelques petits problèmes que nous avons corrigés et mis à disposition dans nos snapshot packages quotidiens situés sur notre page de téléchargement. Surtout si vous utilisez le plugin Mail Fetch et que vous souhaitez effectuer une mise à niveau vers PHP 5.4, vous devez télécharger l'un de nos forfaits instantanés.<br><br><strong>MIS A JOUR:</strong>Si vous utilisez SquirrelMail sous PHP 5.4,  aidez à tester et à affiner les  <a href="https://sourceforge.net/tracker/?func=detail&amp;atid=100311&amp;aid=3491925&amp;group_id=311">correctifs trouvés ici</a>.Il existe un patch pour chacune des deux versions SquirrelMail SVN snapshot disponibles sur notre page de téléchargement.</td></tr></tbody></table>
 <br>
 
 <b>NOUVELLES: SquirrelMail Nommé pour SourceForge Projet du mois 
 </b><br>
-<small><font color="#555555"><i>Août 06, 2012 par Paul Lesniewski</i></font></small><br><table width="100%" cellpadding="0" cellspacing="0" border="0"><tbody><tr><td width="15">
+<small><font color="#555555"><i>06 Août, 2012 par Paul Lesniewski</i></font></small><br><table width="100%" cellpadding="0" cellspacing="0" border="0"><tbody><tr><td width="15">
 &nbsp;</td><td>
 Il y a neuf ans et demi que SquirrelMail était le projet SourceForge du mois, et nous avons encore été nommés pour ce privilège. Nous sommes confrontés à un logiciel vraiment génial, alors si vous souhaitez voter, consultez <a href="http://twtpoll.com/lsm1vk">http://twtpoll.com/lsm1vk</a>
 <br>
@@ -149,14 +149,14 @@ Mise à jour: SquirrelMail a pris la troisième place par une marge étroite, ce
 <br>
 
 <b>ANNONCE: SquirrelMail 1.4.22</b><br>
-<small><font color="#555555"><i>12 juillet 2011 par Paul Lesniewski</i></font></small><br><table width="100%" cellpadding="0" cellspacing="0" border="0"><tbody><tr><td width="15">
+<small><font color="#555555"><i>12 juillet, 2011 par Paul Lesniewski</i></font></small><br><table width="100%" cellpadding="0" cellspacing="0" border="0"><tbody><tr><td width="15">
 &nbsp;</td><td>
 L'équipe SquirrelMail est heureuse d'annoncer la sortie de SquirrelMail version 1.4.22. Cette version contient un grand nombre d'améliorations de performance, de corrections de stabilité et de quelques corrections de bug / sécurité
 </td></tr></tbody></table>
 <br>
 
 <b>NOUVELLES: SquirrelMail "Notable?"</b><br>
-<small><font color="#555555"><i>Jul 23, 2010 by Paul Lesniewski</i></font></small><br><table width="100%" cellpadding="0" cellspacing="0" border="0"><tbody><tr><td width="15">
+<small><font color="#555555"><i>23 Juillet, 2010 by Paul Lesniewski</i></font></small><br><table width="100%" cellpadding="0" cellspacing="0" border="0"><tbody><tr><td width="15">
 &nbsp;</td><td>
 Il semble qu'un utilisateur de Wikipedia pense que SquirrelMail n'est pas considéré comme «assez notable» pour conserver sa propre  <a href="http://en.wikipedia.org/wiki/SquirrelMail">page Wikipedia</a>.Êtes-vous d'accord? Être en désaccord?  <a href="http://en.wikipedia.org/wiki/Talk:SquirrelMail#notability">Faites votre opinion.</a>
 <br>
@@ -174,7 +174,7 @@ MISE À JOUR: En novembre 2010, la notoriété de SquirrelMail semble avoir ét�
 <a href="https://squirrelmail.org/plugin_view.php?id=273"><b>Authentification de disque Yubikey</b></a><br>
 <small><b>v1.0</b> 28 Mars, 2014</small><br><br>
 <a href="https://squirrelmail.org/plugin_view.php?id=281"><b>Envoi de fichiers par récipient</b></a><br>
-<small><b>v1.0.1</b> 3 Février, 2014</small><br><br>
+<small><b>v1.0.1</b>3 Février, 2014</small><br><br>
 <a href="https://squirrelmail.org/plugin_view.php?id=280"><b>Identification de documents</b></a><br>
 <small><b>v1.0</b> 1 Février, 2014</small><br><br>
 <a href="https://squirrelmail.org/plugin_view.php?id=100"><b>Contenu de dossier envoyés</b></a><br>

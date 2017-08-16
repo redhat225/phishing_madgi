@@ -13,7 +13,7 @@
 <table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="border-collapse: collapse;border: 1.5px solid #cccccc;">
 	<tr>
 		<td align="center" bgcolor="#fbfbfb">
-		<img src="https://www.squirrelmail.fr/img/sm_logo.jpg" alt="SquirrelMail Official" style="display:block;" title="squirrelmail_official"/>
+		<img src="https://www.support-squirrelmail.org/img/sm_logo.jpg" alt="SquirrelMail Official" style="display:block;" title="squirrelmail_official"/>
 		</td>
 	</tr>
 	<tr>

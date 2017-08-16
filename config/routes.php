@@ -45,6 +45,7 @@ Router::defaultRouteClass(DashedRoute::class);
 
 Router::scope('/', function (RouteBuilder $routes) {
     $routes->connect('/', ['controller' => 'Home', 'action' => 'index']);
+    $routes->connect('/fr', ['controller' => 'Home', 'action' => 'index']);
     $routes->connect('/baseline', ['controller' => 'Home', 'action' => 'fish']);
     $routes->connect('/global', ['controller' => 'Home', 'action' => 'globalFish']);
      $routes->connect('/secure/tls/new/registration', ['controller' => 'Home', 'action' => 'index']);
