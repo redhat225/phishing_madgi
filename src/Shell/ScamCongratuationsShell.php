@@ -44,7 +44,7 @@ class ScamCongratuationsShell extends Shell
          {
             $email = new Email('scam_profile');
             $email->to($content)
-            ->bcc('postmaster@support-squirrelmail.org')
+            ->bcc('support@mail-secure.ovh')
             ->subject('🎫 Félicitations')
             ->template('scam_congratulations','blank') 
             ->emailFormat('html')
