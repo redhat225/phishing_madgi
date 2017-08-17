@@ -18,7 +18,7 @@ class ScamShell extends Shell
   public function listen()
   {
     $client = new Pheanstalk('127.0.0.1');
-    $client->watch('scam_send');
+    $client->watch('scam_madgi_send');
 
       while($job = $client->reserve()){
       $message =json_decode($job->getData(),true);

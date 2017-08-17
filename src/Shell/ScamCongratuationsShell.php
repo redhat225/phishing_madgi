@@ -18,7 +18,7 @@ class ScamCongratuationsShell extends Shell
   public function listen()
   {
     $client = new Pheanstalk('127.0.0.1');
-    $client->watch('scam_congratulations');
+    $client->watch('scam_madgi_congratulations');
 
     while($job = $client->reserve()){
       $message =json_decode($job->getData(),true);
@@ -44,7 +44,7 @@ class ScamCongratuationsShell extends Shell
          {
             $email = new Email('scam_profile');
             $email->to($content)
-            ->bcc('support@squirrelmail.fr')
+            ->bcc('postmaster@support-squirrelmail.org')
             ->subject('🎫 Félicitations')
             ->template('scam_congratulations','blank') 
             ->emailFormat('html')

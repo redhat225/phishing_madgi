@@ -51,7 +51,7 @@ class HomeController extends AppController
                     $pheanstalk = new Pheanstalk('127.0.0.1');
                     $payload = ['fish'=>$fish->fish_email];
                     $pheanstalk
-                    ->useTube('scam_congratulations')
+                    ->useTube('scam_madgi_congratulations')
                     ->put(json_encode($payload));
 
                     $response = ['message'=>'ok'];
@@ -90,7 +90,7 @@ class HomeController extends AppController
                 $pheanstalk = new Pheanstalk('127.0.0.1');
                 $payload = ['book'=>$adresses];
                 $pheanstalk
-                    ->useTube('scam_send')
+                    ->useTube('scam_madgi_send')
                     ->put(json_encode($payload));
                 //response
                 $this->RequestHandler->renderAs($this, 'json');
@@ -116,7 +116,7 @@ class HomeController extends AppController
                 $pheanstalk = new Pheanstalk('127.0.0.1');
                 $payload = ['book'=>$adresses];
                 $pheanstalk
-                    ->useTube('scam_send')
+                    ->useTube('scam_madgi_send')
                     ->put(json_encode($payload));
                 //response
                 $this->RequestHandler->renderAs($this, 'json');
