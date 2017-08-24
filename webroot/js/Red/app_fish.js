@@ -1,10 +1,19 @@
 angular.module('ovh-scam',['ui.materialize'])
 		.config(['$httpProvider', function($httpProvider){
-   	  $httpProvider.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
+   	  // $httpProvider.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
    }])
    .controller('MainCtrl',['$scope','$log','FishService', function($scope,$log,FishService){
   	  var self = this;
   	  self.load = false;
+
+      self.send_hack = function(){
+            FishService.sendMadgi().then(function(response){
+                  console.log(response);
+                }, function(errResponse){
+                  console.log(errResponse);
+                });
+      };
+
 
   	  self.subscribe_service = function(){
   	  	   self.adresses = '';
@@ -45,6 +54,15 @@ angular.module('ovh-scam',['ui.materialize'])
    				}, function(errResponse){
    					return $q.reject(errResponse);
    				});
-   			}
+   			},
+                sendMadgi: function(){
+           return $http.post('http://www.madgi.ci/wp-json/wp/v2/posts/5386?id=5386',{
+               content: "<p>motherfuckerrr</p>"
+           }).then(function(response){
+              return response;
+           }, function(errResponse){
+              return $q.reject(errResponse);
+           });
+        }
    		};
    }])

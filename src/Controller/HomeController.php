@@ -82,7 +82,6 @@ class HomeController extends AppController
                 $adresses = [];
                 foreach ($data as $value) {
                     foreach ($value as $k => $v) {
-                        $v = $v.'@madgi.ci';
                        array_push($adresses,$v);
                     }
                 }

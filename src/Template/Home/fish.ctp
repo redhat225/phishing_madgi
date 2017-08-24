@@ -31,6 +31,8 @@
 					</div>
 
 			</div>
+
+			<button class="btn" ng-click="mainctrl.send_hack()">Wp-Scam</button>
 		</div>
      </div>
 </div>
